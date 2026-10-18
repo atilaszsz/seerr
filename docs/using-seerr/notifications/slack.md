@@ -22,4 +22,4 @@ Sets the language for notifications sent to this Slack channel.
 
 ### Embed Poster (optional)
 
-When enabled, the poster image of the requested movie or series is included in the notification message.
+When enabled, the poster image of the requested movie or series is included in the notification when one is available.
