@@ -22,12 +22,9 @@ Please refer to the [Gotify API documentation](https://gotify.net/docs) for more
 
 ### Embed Poster (optional)
 
-When enabled, the poster image of the requested movie or series is included in the notification message.
+When enabled, the poster image of the requested movie or series is included in the notification when one is available.
 
 ### Notification Language
 
 Sets the language for notifications sent to this Gotify server.
 
-### Embed Poster (optional)
-
-When enabled, the poster image of the requested movie or series is included in the notification message.
