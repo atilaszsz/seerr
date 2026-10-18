@@ -46,7 +46,7 @@ The default value for this setting is **Use STARTTLS if available**.
 
 ### Allow Self-Signed Certificates (optional)
 
-Enable this if your SMTP server uses a self-signed TLS certificate, so Seerr accepts the connection instead of refusing it. Only use it with a server you trust.
+Enable this if your SMTP server uses a self-signed TLS certificate. When enabled, Seerr stops verifying the server's TLS certificate, so any certificate is accepted, including invalid or untrusted ones. Only use it with a server you trust.
 
 ### SMTP Username & Password
 
@@ -63,4 +63,4 @@ When configuring the PGP keys, be sure to keep the entire contents of the key in
 
 ### Embed Poster (optional)
 
-When enabled, the poster image of the requested movie or series is included in the notification.
+When enabled, the poster image of the requested movie or series is included in the notification when one is available.
