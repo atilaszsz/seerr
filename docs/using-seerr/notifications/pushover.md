@@ -32,4 +32,4 @@ The sound Pushover plays for notifications from Seerr. The available sounds are 
 
 ### Embed Poster (optional)
 
-When enabled, the poster image of the requested movie or series is included in the notification.
+When enabled, the poster image of the requested movie or series is included in the notification when one is available.
