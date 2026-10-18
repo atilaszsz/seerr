@@ -30,4 +30,4 @@ On iOS you may need to enable the Safari notifications feature flag by going to 
 
 ### Embed Poster (optional)
 
-When enabled, the poster image of the requested movie or series is included in the notification message.
+When enabled, the poster image of the requested movie or series is included in the notification when one is available.
