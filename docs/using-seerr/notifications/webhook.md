@@ -93,7 +93,7 @@ The following variables must be used as a key in the JSON payload (e.g., `"{{ext
 | `{{comment}}` | The relevant issue comment object                                                                                              |
 | `{{extra}}`   | The "extra" array of additional data for certain notifications (e.g., season/episode numbers for series-related notifications) |
 
-#### Media
+### Media
 
 The `{{media}}` will be `null` if there is no relevant media object for the notification.
 
@@ -111,7 +111,7 @@ These following special variables are only included in media-related notificatio
 | `{{media_plexRatingKey}}`   | The media's Plex ratingKey, if available (for standard library match)                                          |
 | `{{media_plexRatingKey4k}}` | The media's Plex ratingKey for 4K match, if available                                                          |
 
-#### Request
+### Request
 
 The `{{request}}` will be `null` if there is no relevant media object for the notification.
 
@@ -127,7 +127,7 @@ The following special variables are only included in request-related notificatio
 | `{{requestedBy_settings_discordIds}}`     | The requesting user's Discord ID(s) as a JSON array (if set)                   |
 | `{{requestedBy_settings_telegramChatId}}` | The requesting user's Telegram Chat ID (if set)                                |
 
-#### Issue
+### Issue
 
 The `{{issue}}` will be `null` if there is no relevant media object for the notification.
 
@@ -142,7 +142,7 @@ The following special variables are only included in issue-related notifications
 | `{{reportedBy_settings_discordIds}}`     | The reporting user's Discord ID(s) as a JSON array (if set)                    |
 | `{{reportedBy_settings_telegramChatId}}` | The requesting user's Telegram Chat ID (if set)                                |
 
-#### Comment
+### Comment
 
 The `{{comment}}` will be `null` if there is no relevant media object for the notification.
 
